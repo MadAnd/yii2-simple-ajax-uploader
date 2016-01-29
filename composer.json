@@ -1,0 +1,35 @@
+{
+    "name": "madand/yii2-simple-ajax-uploader",
+    "description": "simple-ajax-uploader asset for Yii2",
+    "keywords": [
+        "yii",
+        "yii2",
+        "simple-ajax-uploader"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/MadAnd/yii2-simple-ajax-uploader",
+    "authors": [
+        {
+            "name": "Andriy Kmit'",
+            "email": "dev@madand.net",
+            "homepage": "https://github.com/MadAnd",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/simple-ajax-uploader": "~2.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "madand\\simpleajaxuploader\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
